@@ -45,6 +45,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\inventarioweb.Shared\inventarioweb.Shared.csproj">
+      <Project>{29BEDF76-855F-45C1-8A35-71BFE54D1C8B}</Project>
+      <Name>inventarioweb.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
